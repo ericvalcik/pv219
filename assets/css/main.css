@@ -1,0 +1,82 @@
+.main .container {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+
+.logo {
+    max-width: 400px;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    text-align: center;
+}
+
+.pic-half {
+    padding-top: 24vh;
+    text-align: center;
+    height: auto;
+    width: auto;
+}
+
+.half-container {
+    display: block;
+    max-width: 25vw;
+    height: 100vh;
+    text-align: center;
+}
+
+.text-snd-page {
+    padding-top: 20vh;
+    text-align: left;
+}
+
+.bg-white-lil  { background-color: #FDF9F3; }
+.bg-white-yl   { background-color: #F9F1E6; }
+.color-red     { color: #FD0101; }
+.color-yellow  { color: #FDDA00; }
+.color-blue    { color: #2646EA; }
+.color-green   { color: #4DB100; }
+
+/* moving letters */
+
+.ml16 {
+    color: #402d2d;
+    margin-top: 1vh;
+    padding: 10px 0;
+    font-weight: 600;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    overflow: hidden;
+    text-align: center;
+}
+
+.ml16 .letter {
+    display: inline-block;
+    line-height: 0.01em;
+}
+
+.navbar {
+    opacity: 0;
+}
+
+.navbar-brand {
+    opacity: 100%;
+}
+
+.kosik-btn {
+    padding-right: 2wh;
+}
+
+.price {
+    font-weight: 700;
+    font-size: large;
+}
+
+.text-align-right {
+    text-align: right;
+}
